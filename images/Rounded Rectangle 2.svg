@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1123 392" width="1123" height="392">
+	<title>Inquire Now</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #dadaf7 } 
+	</style>
+	<g id="Inquire Now">
+		<g id="img/bg">
+			<path id="Rounded Rectangle 2" class="shp0" d="M10 0L1113 0C1118.52 0 1123 4.48 1123 10L1123 382C1123 387.52 1118.52 392 1113 392L10 392C4.48 392 0 387.52 0 382L0 10C0 4.48 4.48 0 10 0Z" />
+		</g>
+	</g>
+</svg>

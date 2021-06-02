@@ -1,0 +1,8 @@
+HTML : 10
+CSS : 9
+BOOTSTRAP: 8
+JS : 8
+JquerY: 0
+PHP: 0
+SQL: 0
+Wordpress: 0

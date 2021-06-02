@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://unpkg.com/@popperjs/core@2" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="https://kit.fontawesome.com/2f1c649cc2.js" crossorigin="anonymous" defer></script>
+    <title>Home Page</title>
+</head>
+<body>
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light d-flex flex-column">
+        <div class="container-fluid"> <!--NAV BAR ONE-->
+          <a class="navbar-brand" href="#">
+              <img class="company_logo" src="./images/logo.JPG" alt="baby company logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <form class="d-flex navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <div class="input-group mb-3">
+                    <input  id="nav_form" type="text" class="form-control p-2" placeholder="Search here.." aria-label="Search here.." aria-describedby="button-addon2" readonly>
+                    <button  id="nav_form_button" class="btn" type="button" id="button-addon2" style="background-color: #f6e300;"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+            <div class="d-flex">
+                <p id="nav_buy"><a href="#"><i class="fas fa-shopping-cart"></i> Buy Online</a></p>
+            </div>
+          </div>
+        </div>
+        <div id="nav_two" class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="width: 60%; display: flex; justify-content: space-between;">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mom Card</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Star Baby</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gift Registry</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Grand Baby Fair</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+              </span>
+            </div>
+          </div>
+      </nav>
+    <main class="container-fluid" id="main" style="border-bottom: 3px dashed #fbe68e;">
+        <section class="container-fluid d-flex justify-content-center flex-column" id="herobanner">
+            <img id="herobanner_stars" src="./images/stars copy.svg" alt="stars">
+            <h2 class="text-center">Lorem Ipsum Dolor <br> Sit Amet Consectetur.</h2>
+            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia eaque similique ipsa pariatur labore nulla itaque ea!</p>
+            <div id="herobanner_buttons" class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
+              <button id="button_banner" type="button" class="btn">
+                Learn More
+              </button>
+              <button id="button_banner_two" type="button" class="btn">
+                <i class="fas fa-greater-than"></i>
+              </button>
+            </div>
+            <img id="baby_left"src="./images/baby 1.svg" alt="baby left">
+            <img id="baby_right"src="./images/baby 2 (1).svg" alt="two babies on right">
+            <div class="custom-shape-divider-bottom-1622449422">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+              </svg>
+          </div>
+        </section>
+        <section id="explore">
+          <h2>Explore by Category</h2>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div id="carousel_one" class="carousel-inner p-5">
+              <div id="carousel_one_container" class="carousel-item active d-flex">
+                <div id="explore_card_one" class="card p-3 d-flex flex-column justify-content-center align-content-center" style="width: 264px; height: 268px; background-color: #c3e2ff;">
+                  <div class="card-body py-5 d-flex flex-column justify-content-center align-content-center" style="background-color: #c3e2ff; border: 1.5px dashed #82c1f9;">
+                    <img class="image mb-4" src="./images/moon.svg" alt="bottle feed" style="width: 30px;">
+                    <h5 class="card-title">Baby Sleep</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+                <div id="explore_card_two" class="card p-3 d-flex flex-column justify-content-center align-content-center" style="width: 264px; height: 268px; background-color: #fff5dc;">
+                  <div class="card-body py-5 d-flex flex-column justify-content-center align-content-center" style="background-color: #fff5dc; border: 1.5px dashed #fae8ba;">
+                    <img class="image mb-4" src="./images/bodysuit.svg" alt="baby suit" style="width: 30px;">
+                    <h5 class="card-title">Baby Wear</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+                <div id="explore_card_three" class="card p-3 d-flex flex-column justify-content-center align-content-center" style="width: 264px; height: 268px; background-color: #fcdcdd;">
+                  <div class="card-body py-5 d-flex flex-column justify-content-center align-content-center" style="background-color: #fcdcdd; border: 1.5px dashed #fab9bb;">
+                    <img class="image mb-4" src="./images/rattle.svg" alt="baby play" style="width: 30px;">
+                    <h5 class="card-title">Baby Play</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+                <div id="explore_card_four" class="card p-3 d-flex flex-column justify-content-center align-content-center" style="width: 264px; height: 268px; background-color: #cff69d;">
+                  <div class="card-body py-5 d-flex flex-column justify-content-center align-content-center" style="background-color: cff69d; border: 1.5px dashed #8fd82b;">
+                    <img class="image mb-4" src="./images/feeding-bottle.svg" alt="baby feeding" style="width: 20px;">
+                    <h5 class="card-title">Baby Eat</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- carousel item two -->
+              <div class="p-3 carousel-item d-flex flex-row justify-content-between"> 
+                <!-- <div class="card p-3 d-flex flex-column justify-content-center align-content-center" style="width: 18rem; background-color: #cff69d;">
+                  <div class="card-body py-5 d-flex flex-column justify-content-center align-content-center" style="background-color: cff69d; border: 1.5px dashed #8fd82b;">
+                    <img class="image mb-4" src="./images/moon.svg" alt="bottle feed" style="width: 30px;">
+                    <h5 class="card-title">Baby Sleep</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+                <div class="card p-3 d-flex flex-column justify-content-center align-content-center" style="width: 18rem; background-color: #cff69d;">
+                  <div class="card-body py-5 d-flex flex-column justify-content-center align-content-center" style="background-color: cff69d; border: 1.5px dashed #8fd82b;">
+                    <img class="image mb-4" src="./images/moon.svg" alt="bottle feed" style="width: 30px;">
+                    <h5 class="card-title">Baby Sleep</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container rounded p-5 d-flex my-5" id="inquire">
+          <div id="inquire_container_one" class="container p-5 d-flex flex-column justify-content-center align-content-center">
+            <h1 class="text-start">Lorem ipsum dolor sit amet consectetur.</h1>
+            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore velit odit minus repellendus natus accusantium unde!</p>
+            <div id="inquire_buttons" class="btn-group d-flex justify-content-center rounded rounded-pill text-start" role="group" aria-label="Basic example">
+              <button id="inquire_buttons_one" type="button" class="btn py-3">
+                Inquire Now
+              </button>
+              <button id="inquire_buttons_two" type="button" class="btn">
+                <i class="fas fa-greater-than"></i>
+              </button>
+            </div>
+          </div>
+          <div id="inquire_container_two">
+            <img id="containerTwo_image_one" src="./images/inquiry stars.png" alt="stars">
+            <img id="containerTwo_image_two" src="./images/sleeping clouds.png" alt="clouds sleeping">
+            <img id="containerTwo_image_three" src="./images/inquiry_baby.png" alt="baby laughing">
+          </div>
+        </section>
+        <section id="products">
+          <div class="custom-shape-divider-top-1622568832">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+          <h2 class="mt-5">Our Products</h2>
+          <ul class="list-inline text-center" style="z-index: 5;">
+            <li class="list-inline-item"><a href="#">Top Picks</a></li>
+            <li class="list-inline-item"><a href="#">Best Deals</a></li>
+            <li class="list-inline-item"><a href="#">New Items</a></li>
+          </ul>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="padding: 8em;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded" aria-current="true" aria-label="Slide 1" style="background-color: #95d247;"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="rounded" style="background-color: #95d247;"></button>
+            </div>
+            <div class="container carousel-inner">
+              <div class="row carousel-item active d-flex justify-content-center">
+                <img src="./images/nala_one.JPG" class="img mx-5 col-md-3" alt="nala one" style="width: 280px;">
+                <img src="./images/nala_two.JPG" class="img mx-5 col-md-3" alt="nala two" style="width: 280px;">
+                <img src="./images/nala_three.JPG" class="img mx-5 col-md-3" alt="nala three" style="width: 280px;">
+              </div>
+              <div class="row carousel-item d-flex justify-content-center">
+                <img src="./images/nala_three.JPG" class="image mx-5 col-md-3" alt="nala three" style="width: 280px;">
+                <img src="./images/nala_one.JPG" class="image mx-5 col-md-3" alt="nala one" style="width: 280px;">
+                <img src="./images/nala_two.JPG" class="image mx-5 col-md-3" alt="nala two" style="width: 280px;">
+              </div>
+            </div>
+          </div>
+          <div class="custom-shape-divider-bottom-1622568153">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        </section>
+        <section id="blogs">
+          <h2>Featured News & Blogs</h2>
+          <div class="card my-5 mx-auto" style="max-width: 950px;;">
+            <div class="row g-0 d-flex">
+              <article class="col-md-5">
+                <div class="card-body" style="background-color: #c3e2ff; height: 100%; padding: 2em;">
+                  <p class="card-text"><small class="text-muted">CATEGORY | <time datetime="2021-02-24">FEBRUARY 24, 2020</time></small></p>
+                  <h5 class="card-title">Blog Title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus assumenda sit, laboriosam fugiat exercitationem ipsam molestias deleniti voluptatem, consequuntur quibusdam...</p>
+                  <div id="blog_buttons" class="btn-group d-flex justify-content-center rounded rounded-pill text-start" role="group" aria-label="Read Now" style="width: 250px;">
+                    <button id="blog_button_one" type="button" class="btn">
+                      Read Now
+                    </button>
+                    <button id="blog_button_two" type="button" class="btn">
+                      <i class="fas fa-greater-than"></i>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <div class="col-md-7">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="container carousel-item active">
+                      <img class="img-fluid" src="./images/baby-lying-on-pink-bed-1556706.png" class="d-block" alt="baby lying on pink bed">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="img-fluid" src="./images/baby-lying-on-pink-bed-1556706.png" class="d-block" alt="baby lying on pink bed">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="img-fluid" src="./images/baby-lying-on-pink-bed-1556706.png" class="d-block" alt="baby lying on pink bed">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="blogs_mini_articles" class="d-flex">
+            <article>
+              <div id="blogs_mini_articles_one" class="card">
+                <img class="img-fluid" src="./images/baby-sleeping-on-white-cotton-161709.png" class="card-img-top" alt="baby sleeping">
+                <div class="card-body" style="background-color: #fff5dc; border-bottom: #ffcc58 2px dashed;">
+                  <p class="fw-bolder" style="font-size: smaller;">BLOG TITLE | <time datetime="2021-02-24">FEBRUARY 24, 2020</time></p>
+                  <h6 class="card-title">Blog Title</h6>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div id="blogs_mini_articles_two" class="card">
+                <img class="img-fluid" src="./images/baby-sleeping-on-white-cotton-161709.png" class="card-img-top" alt="baby sleeping">
+                <div class="card-body" style="background-color: #fcdcdd; border-bottom: #f6757a 2px dashed;">
+                  <p class="fw-bolder" style="font-size: smaller;">BLOG TITLE | <time datetime="2021-02-24">FEBRUARY 24, 2020</time></p>
+                  <h6 class="card-title">Blog Title</h6>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div id="blogs_mini_articles_three" class="card">
+                <img class="img-fluid" src="./images/baby-sleeping-on-white-cotton-161709.png" class="card-img-top" alt="baby sleeping">
+                <div class="card-body" style="background-color: #cff69d; border-bottom: #7fd114 2px dashed;">
+                  <p class="fw-bolder" style="font-size: smaller;">BLOG TITLE | <time datetime="2021-02-24">FEBRUARY 24, 2020</time></p>
+                  <h6 class="card-title">Blog Title</h6>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+    </main>
+    <footer id="footer" class="container mt-5">
+      <div class="row d-flex justify-content-between" style="width: 100%">
+          <div class="col-md-6">
+              <h4 class="text-start">About Baby Company</h4>
+              <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facere illum beatae repudiandae vitae, placeat distinctio praesentium veritatis accusantium debitis sit, molestiae, sunt animi reprehenderit modi error! Aperiam vero pariatur molestiae at?</p>
+              <address><p class="text-start">Send us an email: <span style="font-weight:700">babycompany.customercare@smretail.com</span></p></address>
+              <ul class="list-inline text-start">
+                  <li class="list-inline-item" style="border-radius: 50%; background-color: #c3e2ff; padding: 0.5rem 1rem;"><i class="fab fa-facebook-f"></i></li>
+                  <li class="list-inline-item" style="border-radius: 50%; background-color: #fff5dc; padding: 0.5rem 1rem;"><i class="fab fa-instagram"></i></li>
+                  <li class="list-inline-item" style="border-radius: 50%; background-color: #fcdcdd; padding: 0.5rem 1rem;"><i class="fab fa-youtube"></i></li>
+                  <li class="list-inline-item" style="border-radius: 50%; background-color: #cff69d; padding: 0.5rem 1rem;"><i class="fab fa-twitter"></i></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h4>Naviagation</h4>
+              <ul class="list-unstyled">
+                  <li>Products</li>
+                  <li>Mom Card</li>
+                  <li>Star Baby</li>
+                  <li>Gift Registry</li>
+                  <li>Grand Baby Fair</li>
+                  <li>Blogs</li>
+                  <li>Contact</li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h4>Other Links</h4>
+              <ul class="list-unstyled">
+                  <li>Our Story</li>
+                  <li>Promos</li>
+                  <li>Store Directory</li>
+                  <li>Buy Online</li>
+                  <li>Careers</li>
+                  <li>Privacy Policy</li>
+              </ul>
+          </div>
+      </div>
+      <div class="row my-5">
+          <h5 class="text-center">
+              Copyright © 2020 Baby Company By SEO-HACKER. OPTIMIZED AND MAINTAINED BY Sean SI
+          </h5>
+      </div>
+  </footer>
+</body>
+</html>
